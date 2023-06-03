@@ -1,8 +1,8 @@
-version: "3"
+version : "3.0"
 
 services:
-  nginx-app:
-    image: ysk8448/myimage:3.0
-    build: .
+  python-app:
+    image : ${DOCKER_USR}/hw6_team
+    build : .
     ports:
       - 80:80
